@@ -73,7 +73,7 @@ def main():
         webrtc_streamer(key="example", video_transformer_factory=VideoTransformer)
 
     elif choice == "About":
-        st.subheader("About this app")
+        st.subheader("About the app")
         html_temp_about1= """<div style="background-color:#6D7B8D;padding:10px">
                                     <h4 style="color:white;text-align:center;">
                                     Real time face emotion detection application using OpenCV, Custom Trained CNN model and Streamlit.</h4>
